@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, ASCII Magic 1.6 - https://github.com/LeandroBarone/python-ascii_magic/">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS -->
+
+    <link rel="shortcut icon" href="assets/icon.png">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Victor Arselion</title>
+    <style>
+        .image-grid {
+	--gap: 16px;
+	--num-cols: 4;
+	--row-height: 300px;
+
+	box-sizing: border-box;
+	padding: var(--gap);
+
+	display: grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+}
+
+.image-grid>img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.image-grid-col-2 {
+	grid-column: span 2;
+}
+
+.image-grid-row-2 {
+	grid-row: span 2;
+}
+
+/* Anything udner 1024px */
+@media screen and (max-width: 1024px) {
+	.image-grid {
+		--num-cols: 2;
+		--row-height: 200px;
+	}
+}
+    </style>
+    
+</head>
+<body>
+    <!-- OVERLAY -->
+    <div class="overlay first"></div>
+    <div class="overlay second"></div>
+    <div class="overlay third"></div>
+
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">VCode</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#ome" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <ion-icon name="menu"></ion-icon>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="l-main bd-grid">
+        <div class="home" id="ome">
+            <div class="home__information">
+                <span class="home__pressent anime-text">Ssup!</span>
+                <h1 class="home__title anime-text">Victor Arselion</h1>
+                <span class="home__skill anime-text">@leejen_o_423</span>
+
+                <div>
+                    <a href="#" class="home__button anime-text">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="home__img">
+                <img src="assets/img/newleejwni.png" alt="">
+            </div>
+<!-- 
+            <div class="home__social">
+                <ion-icon name="logo-facebook" class="home__social-icon"></ion-icon>
+                <ion-icon name="logo-instagram" class="home__social-icon"></ion-icon>
+                <ion-icon name="logo-twitter" class="home__social-icon"></ion-icon>
+            </div> -->
+        </div>
+    </main>
+
+        <div class="bawah">
+            <!-- Services -->
+    <!-- <div class="about" id="about">
+        <div class="container">
+            <div class="box-about">
+                <div class="box">
+                    <i class="fa-solid fa-coins"></i>
+                    <h4>Music</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, labore.</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-certificate"></i>
+                    <h4>Art</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, labore.</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-people-roof"></i>
+                    <h4>Love</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, labore.</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+        <!-- About -->
+        <div class="kata-about" id="about">About Me</h1>
+            <p>
+                Silent echoes of indifference, cloaked in a chilling veneer, Victor Arselion stands as a testament to the artistry of apathy. Aesthetic rebellion intricately interweaves itself into the very essence of my existence, crafting a toxic allure that irresistibly beckons the inquisitive soul. Within the depths of obscurity, I, Victor Arselion, adorn my indifference with the finesse of a fashionable mask, epitomizing the paradox of nonchalance and allure. Eternally, I remain a wandering enigma, a paragon of masculine mystique, an aesthetic enigma that continues to elicit fascination and exploration.
+            </p>
+        </div>
+        <!-- About -->
+        <div class="image-grid">
+            <img class="image-grid-col-2 image-grid-row-2" src="assets/img/h.jpeg" alt="architecture">
+            <img src="assets/img/g.jpeg" alt="architecture">
+            <img src="assets/img/v.jpeg" alt="architecture">
+            <img src="assets/img/a.jpeg" alt="architecture">
+            <img src="assets/img/f.jpeg" alt="architecture">
+        </div>
+
+
+
+
+ 
+</div>
+    <!-- Services -->
+ 
+
+
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+    <!-- MAIN -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+    <!-- ICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
+ 
