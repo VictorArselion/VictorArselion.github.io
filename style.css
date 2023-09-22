@@ -935,7 +935,7 @@ img {
 }
 
 .bawah{
-  background-color: #16122a;
+  background-color: var(--first-color);
 
 }
 
